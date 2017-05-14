@@ -11,23 +11,11 @@ An Google appengine deployment of some functionality based on [sanskrit-coders/s
 ## Setup
 * Strongly recomment Intellij Idea IDE.
   * Just point it to the IML file and .idea/* files.
-* There are also eclipse files which haven't been used in a long time.
 
 ## Where is the code?
 * src/main/ has subfolders called java, scala. They respectively contain code written in those languages.
 * Javascript code is in war/js.
 * HTML forms are found in war/forms.
-
-## Adding libraries
-* Using IntelliJ Idea IDE : Don't muck around with pom.xml. Use project or module settings.
-
-## Scala programming tips:
-* Using IntelliJ Idea IDE :
-  * use provided project file. Install the scala plugin. Set up the source folders in the module.
-  * Open any valid singleton with a main function. Run it using Ctrl Shift F10.
-* Building with maven:
-  * mvn3 clean install
-* Using Eclipse: Just use eclipse with the scalaIDE plugin. Set output folder WEB-INF/classes.
 
 ## Deployment
 * Regarding **maven targets**:
@@ -41,8 +29,14 @@ An Google appengine deployment of some functionality based on [sanskrit-coders/s
   * If you are doing this from intellij:
     * a browser window will pop up, get SSO authentication done,
     * give you a code to paste in the maven widget.
-* Local build: `mvn clean install`
-  * Files are output in target/ .
+* Local build
+  * Alternative: `mvn clean install`
+    * Files are output in target/ .
+  * Intellij AppEngineDev plugin
+    * Uses the artifacts:
+        * sanskritnlpjava-g-appengine-exploded.war, which includes sanskritnlpjava.
 * Local dev server run: `mvn appengine:devserver`
 * Manage online at <https://console.cloud.google.com> . Navigate around a bit.
+  * Quotas [link](https://console.cloud.google.com/appengine/quotadetails?project=sanskritnlp).
+    * As of 201705 - seems to include 1GB incoming and outgoing bandwitdth. 
 

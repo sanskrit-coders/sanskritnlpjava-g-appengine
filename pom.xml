@@ -5,16 +5,8 @@
     <packaging>war</packaging>
     <version>1.2</version>
     <description>
-        A collection of scala and java classes for some basic natural language processing (NLP) for the Sanskrit language, contributed by the open source SanskritNLP project and friends.
-        Some notable facilities:
-        * Transliterate text from one script or encoding scheme to another.
-        * Deal with babylon dictionaries.
-        * Use bots to write to wiki projects (wiktionary, wikisource etc..).
-        * Basic metre identification.
-        * Some grammar simulation.
-        Contributions and suggestions are invited at https://github.com/sanskrit-coders/sanskritnlpjava . (Sister projects there may also be of interest.)
+        See https://raw.githubusercontent.com/sanskrit-coders/sanskritnlpjava-g-appengine/master/README.md
     </description>
-    <name>Sanskrit NLP scala and java library</name>
     <issueManagement>
         <url>https://github.com/sanskrit-coders/sanskritnlpjava/issues</url>
         <system>GitHub Issues</system>
@@ -24,7 +16,7 @@
     <licenses>
         <license>
             <name>Apache License 2.0</name>
-            <url>https://raw.githubusercontent.com/sanskrit-coders/sanskritnlpjava/master/LICENSE</url>
+            <url>https://raw.githubusercontent.com/sanskrit-coders/sanskritnlpjava-g-appengine/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
