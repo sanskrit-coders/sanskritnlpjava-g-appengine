@@ -1,7 +1,9 @@
 package sanskritnlp.servlet
-import sanskritnlp.vyAkaraNa._
+
 import javax.servlet.http._
+
 import org.apache.commons.lang3.StringEscapeUtils
+import sanskritnlp.vyAkaraNa.akSharasaMjJNA
 
 
 class pratyAhArI extends HttpServlet {

@@ -78,8 +78,8 @@
         <!-- Compile/runtime dependencies -->
         <dependency>
             <groupId>com.github.sanskrit-coders</groupId>
-            <artifactId>sanskritnlp</artifactId>
-            <version>1.2</version>
+            <artifactId>indic-transliteration</artifactId>
+            <version>1.1</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
