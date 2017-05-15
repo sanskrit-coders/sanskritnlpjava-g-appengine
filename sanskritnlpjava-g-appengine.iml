@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="google-app-engine" name="Google App Engine">
       <configuration>
-        <sdk-home-path>$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.52/appengine-java-sdk/appengine-java-sdk-1.9.52</sdk-home-path>
+        <sdk-home-path>$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.53/appengine-java-sdk/appengine-java-sdk-1.9.53</sdk-home-path>
       </configuration>
     </facet>
     <facet type="web" name="Web">
@@ -45,7 +45,7 @@
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:0.9.29" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.appengine:appengine-testing:1.9.15" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.appengine:appengine-api-stubs:1.9.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.appengine:appengine-testing:1.9.53" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.appengine:appengine-api-stubs:1.9.53" level="project" />
   </component>
 </module>
