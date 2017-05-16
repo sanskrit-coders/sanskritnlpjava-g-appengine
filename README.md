@@ -8,19 +8,15 @@ An Google appengine deployment of some functionality based on [sanskrit-coders/s
 * Last update : 2017-03-23
 
 # Contributors
-## Setup
-* Strongly recomment Intellij Idea IDE.
-  * Just point it to the IML file and .idea/* files.
+## Links to general comments
+See [indic-transliteration/README](https://github.com/sanskrit-coders/indic-transliteration/blob/master/README.md) for the following info:
 
-## Where is the code?
-* src/main/ has subfolders called java, scala. They respectively contain code written in those languages.
-* Javascript code is in war/js.
-* HTML forms are found in war/forms.
-
-## Deployment
-* Regarding **maven targets**:
-  * You can set up a maven goal in intellij as well.
-  * In intellij: Don't be fooled by weird messages in the Run widget - look at the messages widget.
+  - [Setup](https://github.com/sanskrit-coders/indic-transliteration/blob/master/README.md#setup)
+  - [Deployment](https://github.com/sanskrit-coders/indic-transliteration/blob/master/README.md#deployment)
+    - [Regarding **maven targets** in intellij](https://github.com/sanskrit-coders/indic-transliteration/blob/master/README.md#regarding-**maven-targets**-in-intellij)
+    - [Building a jar.](https://github.com/sanskrit-coders/indic-transliteration/blob/master/README.md#building-a-jar.)
+  - [Technical choices](https://github.com/sanskrit-coders/indic-transliteration/blob/master/README.md#technical-choices)
+    - [Scala](https://github.com/sanskrit-coders/indic-transliteration/blob/master/README.md#scala)
 
 ### Deploying to google cloud.
 * Note that we're using appengine-maven-plugin in <pom-war.xml>. In intellij pass this file explicitly with -f pom-war.xml.
